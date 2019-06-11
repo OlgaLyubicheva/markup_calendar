@@ -1,0 +1,352 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-auto-rows: 100px;
+  grid-gap: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+.calendar :nth-child(n) {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background-color: #eee;
+  transition-property: transform background-color;
+  transition-duration: 0.5s;
+}
+.calendar :nth-child(n):hover {
+  background-color: #ffc0cb;
+  transform: translateY(-20px);
+}
+.calendar :nth-child(1)::before {
+  content: "1";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(2)::before {
+  content: "2";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(3)::before {
+  content: "3";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(4)::before {
+  content: "4";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(5)::before {
+  content: "5";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(6)::before {
+  content: "6";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(7)::before {
+  content: "7";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(8)::before {
+  content: "8";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(9)::before {
+  content: "9";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(10)::before {
+  content: "10";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(11)::before {
+  content: "11";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(12)::before {
+  content: "12";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(13)::before {
+  content: "13";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(14)::before {
+  content: "14";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(15)::before {
+  content: "15";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(16)::before {
+  content: "16";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(17)::before {
+  content: "17";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(18)::before {
+  content: "18";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(19)::before {
+  content: "19";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(20)::before {
+  content: "20";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(21)::before {
+  content: "21";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(22)::before {
+  content: "22";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(23)::before {
+  content: "23";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(24)::before {
+  content: "24";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(25)::before {
+  content: "25";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(26)::before {
+  content: "26";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(27)::before {
+  content: "27";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(28)::before {
+  content: "28";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(29)::before {
+  content: "29";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(30)::before {
+  content: "30";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar :nth-child(31)::before {
+  content: "31";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+.calendar-mon :first-child {
+  grid-column-start: 1;
+}
+.calendar-tue :first-child {
+  grid-column-start: 2;
+}
+.calendar-wed :first-child {
+  grid-column-start: 3;
+}
+.calendar-thu :first-child {
+  grid-column-start: 4;
+}
+.calendar-fri :first-child {
+  grid-column-start: 5;
+}
+.calendar-sat :first-child {
+  grid-column-start: 6;
+}
+.calendar-sun :first-child {
+  grid-column-start: 7;
+}
+.calendar-1 :nth-child(n+2) {
+  display: none;
+}
+.calendar-2 :nth-child(n+3) {
+  display: none;
+}
+.calendar-3 :nth-child(n+4) {
+  display: none;
+}
+.calendar-4 :nth-child(n+5) {
+  display: none;
+}
+.calendar-5 :nth-child(n+6) {
+  display: none;
+}
+.calendar-6 :nth-child(n+7) {
+  display: none;
+}
+.calendar-7 :nth-child(n+8) {
+  display: none;
+}
+.calendar-8 :nth-child(n+9) {
+  display: none;
+}
+.calendar-9 :nth-child(n+10) {
+  display: none;
+}
+.calendar-10 :nth-child(n+11) {
+  display: none;
+}
+.calendar-11 :nth-child(n+12) {
+  display: none;
+}
+.calendar-12 :nth-child(n+13) {
+  display: none;
+}
+.calendar-13 :nth-child(n+14) {
+  display: none;
+}
+.calendar-14 :nth-child(n+15) {
+  display: none;
+}
+.calendar-15 :nth-child(n+16) {
+  display: none;
+}
+.calendar-16 :nth-child(n+17) {
+  display: none;
+}
+.calendar-17 :nth-child(n+18) {
+  display: none;
+}
+.calendar-18 :nth-child(n+19) {
+  display: none;
+}
+.calendar-19 :nth-child(n+20) {
+  display: none;
+}
+.calendar-20 :nth-child(n+21) {
+  display: none;
+}
+.calendar-21 :nth-child(n+22) {
+  display: none;
+}
+.calendar-22 :nth-child(n+23) {
+  display: none;
+}
+.calendar-23 :nth-child(n+24) {
+  display: none;
+}
+.calendar-24 :nth-child(n+25) {
+  display: none;
+}
+.calendar-25 :nth-child(n+26) {
+  display: none;
+}
+.calendar-26 :nth-child(n+27) {
+  display: none;
+}
+.calendar-27 :nth-child(n+28) {
+  display: none;
+}
+.calendar-28 :nth-child(n+29) {
+  display: none;
+}
+.calendar-29 :nth-child(n+30) {
+  display: none;
+}
+.calendar-30 :nth-child(n+31) {
+  display: none;
+}
+.calendar-31 :nth-child(n+32) {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
