@@ -1,3 +1,5 @@
+[DEMO LINK](https://olgalyubicheva.github.io/markup_calendar/)
+
 # Calendar
 
 Display a calendar in the middle of the screen. The HTML of the calendar needs to have the following structure:
